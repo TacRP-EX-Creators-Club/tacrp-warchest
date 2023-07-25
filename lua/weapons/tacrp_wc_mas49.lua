@@ -4,13 +4,13 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "SVT-40"
+SWEP.PrintName = "MAS-49"
 SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "6Precision Rifle"
 
-SWEP.Description = "WW2-era self-loading rifle with a deadly headshot and decent medium-range performance.  \nEquipped with a 4x scope by default."
+SWEP.Description = "WW2-era self-loading rifle.  Good rate of fire and mobility for a long rifle."
 
 SWEP.ViewModel = "models/weapons/tacint/v_m14.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_m14.mdl"
@@ -109,7 +109,7 @@ SWEP.MuzzleVelocity = 32000
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 240
+SWEP.RPM = 350
 
 SWEP.Spread = 0.0002
 
@@ -181,17 +181,9 @@ SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_BACK
 SWEP.HolsterPos = Vector(5, 0, -6)
 SWEP.HolsterAng = Angle(0, 0, 0)
 
-// scope
-
-SWEP.Scope = true
-SWEP.ScopeOverlay = Material("tacrp/scopes/l96.png", "mips smooth") // Material("path/to/overlay")
-SWEP.ScopeFOV = 90 / 4
-SWEP.ScopeLevels = 1 // 2 = like CS:S
-SWEP.ScopeHideWeapon = true
-
 // reload
 
-SWEP.ClipSize = 10
+SWEP.ClipSize = 15
 SWEP.Ammo = "ar2"
 
 SWEP.ReloadTimeMult = 1
