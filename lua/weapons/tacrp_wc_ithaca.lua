@@ -111,7 +111,7 @@ SWEP.Firemode = 2
 
 SWEP.FiremodeName = "Slam-Fire" // only used externally for firemode name distinction
 
-SWEP.RPM = 110
+SWEP.RPM = 100
 
 SWEP.ShootTimeMult = 0.85
 
