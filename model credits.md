@@ -6,9 +6,6 @@
 # Gewehr 43 by Team Psykskallar (Cry of Fear); GMod port by Полковник
 ## https://steamcommunity.com/sharedfiles/filedetails/?id=1381601107
 
-# Browning Auto-5 by DICE (Battlefield 1); GMod port by Moon
-## https://steamcommunity.com/sharedfiles/filedetails/?id=1194415014
-
 # Fedorov Avtomat by DICE (Battlefield 1); GMod port by Moon
 ## https://steamcommunity.com/sharedfiles/filedetails/?id=1547503497
 
@@ -21,7 +18,7 @@
 # M1A1 Thompson by RNL Team (i dont fucking know); GMod port by Nikolai MacPootislavski and Xplor3r
 ## https://steamcommunity.com/sharedfiles/filedetails/?id=263452264
 
-# MG 42 by idk yet i need a good model with the drum mag
+# MG 42 by New World Interactive (Day of Infamy)
 
 # M1 Carbine by MRDeadlyFPS
 ## https://gamebanana.com/mods/211833
