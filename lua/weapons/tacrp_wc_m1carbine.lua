@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "5Sporter Carbine"
 
-SWEP.Description = "WW2-era semi-auto carbine.  Mediocre power but lightweight, accurate, and good at long range."
+SWEP.Description = "WW2-era semi-auto carbine.  Mediocre power but lightweight, accurate, and maintains damage over long range."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_m1carbine.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_m1carbine.mdl"
