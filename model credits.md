@@ -4,8 +4,7 @@
 # Ithaca M37 by Millenia
 ## https://gamebanana.com/mods/208396
 
-# M1A1 Thompson by RNL Team (i dont fucking know); GMod port by Nikolai MacPootislavski and Xplor3r
-## https://steamcommunity.com/sharedfiles/filedetails/?id=263452264
+# M1A1 Thompson by Nexon (Counter-Strike: Online 2)
 
 # MG 42 by New World Interactive (Day of Infamy)
 
