@@ -19,8 +19,8 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 30,
-        Damage_Min = 22,
+        Damage_Max = 25,
+        Damage_Min = 20,
 
         Range_Min = 1500,
         Range_Max = 4000,
@@ -32,7 +32,7 @@ SWEP.BalanceStats = {
     },
     [TacRP.BALANCE_TTT] = {
 
-        Damage_Max = 25,
+        Damage_Max = 20,
         Damage_Min = 16,
         Range_Min = 1200,
         Range_Max = 3200,
@@ -44,7 +44,7 @@ SWEP.BalanceStats = {
         RecoilFirstShotMult = 0.5,
 
         BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 3,
+            [HITGROUP_HEAD] = 1.5,
             [HITGROUP_CHEST] = 1.25,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 0.75,
@@ -63,7 +63,7 @@ SWEP.BalanceStats = {
         ReloadSpeedMult = 0.5,
     },
     [TacRP.BALANCE_PVE] = {
-        Damage_Max = 15,
+        Damage_Max = 12,
         Damage_Min = 9,
         Range_Min = 1500,
         Range_Max = 3500,
@@ -81,7 +81,7 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.MarksmanRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 28 // damage at minimum range
+SWEP.Damage_Max = 25 // damage at minimum range
 SWEP.Damage_Min = 18 // damage at maximum range
 SWEP.Range_Min = 2000 // distance for which to maintain maximum damage
 SWEP.Range_Max = 5000 // distance at which we drop to minimum damage
@@ -89,7 +89,7 @@ SWEP.Penetration = 15 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.45
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 3,
+    [HITGROUP_HEAD] = 2,
     [HITGROUP_CHEST] = 1.25,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 0.9,
