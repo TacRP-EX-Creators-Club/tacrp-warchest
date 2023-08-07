@@ -1,5 +1,3 @@
-# War Chest: The third (and likely final) major addon pack for TacRP.
-
 # PPSh-41 by MRDeadlyFPS
 ## https://gamebanana.com/mods/208869
 
@@ -13,8 +11,5 @@
 
 # M1 Carbine by MRDeadlyFPS
 ## https://gamebanana.com/mods/211833
-
-# MAS-49 by Tripwire Interactive (Rising Storm 2); GMod port by Stalol and Master MLG
-## https://steamcommunity.com/sharedfiles/filedetails/?id=1991760185
 
 # StG 44 by idk yet i'm debating on using the dods model 

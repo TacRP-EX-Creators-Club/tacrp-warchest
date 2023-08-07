@@ -10,45 +10,41 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "5Sporter Carbine"
 
-SWEP.Description = "WW2-era carbine rifle.  Lightweight and decently powerful."
+SWEP.Description = "WW2-era semi-auto carbine.  Mediocre power but lightweight, accurate, and good at long range."
 
-SWEP.ViewModel = "models/weapons/tacint/v_m14.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_m14.mdl"
+SWEP.ViewModel = "models/weapons/tacint_shark/v_m1carbine.mdl"
+SWEP.WorldModel = "models/weapons/tacint_shark/w_m1carbine.mdl"
 
 SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 30,
-        Damage_Min = 50,
+        Damage_Min = 22,
 
-        Range_Min = 1200,
+        Range_Min = 1500,
         Range_Max = 3000,
 
-        MoveSpeedMult = 0.8,
-        ShootingSpeedMult = 0.6,
-        SightedSpeedMult = 0.75,
+        ShootingSpeedMult = 1,
+        SightedSpeedMult = 1,
         MeleeSpeedMult = 1,
         ReloadSpeedMult = 1,
     },
     [TacRP.BALANCE_TTT] = {
 
-        Description = "Semi-automatic rifle with excellent accuracy and a lethal headshot at long range.\nEquipped with a 6x scope by default.",
-
-        Damage_Max = 22,
-        Damage_Min = 35,
+        Damage_Max = 25,
+        Damage_Min = 16,
         Range_Min = 1200,
         Range_Max = 3000,
-        RPM = 180,
+        RPM = 250,
 
         RecoilResetTime = 0.18,
-        RecoilDissipationRate = 3,
         RecoilMaximum = 3,
         RecoilSpreadPenalty = 0.01,
         RecoilFirstShotMult = 0.5,
 
         BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 3.5,
+            [HITGROUP_HEAD] = 3,
             [HITGROUP_CHEST] = 1.25,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 0.75,
@@ -68,7 +64,7 @@ SWEP.BalanceStats = {
     },
     [TacRP.BALANCE_PVE] = {
         Damage_Max = 15,
-        Damage_Min = 34,
+        Damage_Min = 9,
         Range_Min = 1200,
         Range_Max = 3000,
         RPM = 200,
@@ -85,16 +81,16 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.MarksmanRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 40 // damage at minimum range
-SWEP.Damage_Min = 32 // damage at maximum range
+SWEP.Damage_Max = 28 // damage at minimum range
+SWEP.Damage_Min = 18 // damage at maximum range
 SWEP.Range_Min = 2000 // distance for which to maintain maximum damage
-SWEP.Range_Max = 6000 // distance at which we drop to minimum damage
+SWEP.Range_Max = 5000 // distance at which we drop to minimum damage
 SWEP.Penetration = 15 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.85
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 5,
-    [HITGROUP_CHEST] = 1.5,
+    [HITGROUP_HEAD] = 3,
+    [HITGROUP_CHEST] = 1.25,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 0.9,
     [HITGROUP_RIGHTARM] = 0.9,
@@ -109,7 +105,7 @@ SWEP.MuzzleVelocity = 32000
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 300
+SWEP.RPM = 350
 
 SWEP.Spread = 0.0002
 
@@ -117,35 +113,35 @@ SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 3
-SWEP.RecoilResetTime = 0.25 // time after you stop shooting for recoil to start dissipating
+SWEP.RecoilResetTime = 0.2 // time after you stop shooting for recoil to start dissipating
 SWEP.RecoilDissipationRate = 6
 SWEP.RecoilFirstShotMult = 0.5
 
-SWEP.RecoilVisualKick = 2
-SWEP.RecoilKick = 5
-SWEP.RecoilStability = 0.75
+SWEP.RecoilVisualKick = 1
+SWEP.RecoilKick = 3
+SWEP.RecoilStability = 0.8
 
-SWEP.RecoilSpreadPenalty = 0.005
-SWEP.HipFireSpreadPenalty = 0.075
-SWEP.PeekPenaltyFraction = 0.1
+SWEP.RecoilSpreadPenalty = 0.004
+SWEP.HipFireSpreadPenalty = 0.02
+SWEP.PeekPenaltyFraction = 0.2
 
 SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.85
+SWEP.MoveSpeedMult = 0.9
 SWEP.ShootingSpeedMult = 0.75
-SWEP.SightedSpeedMult = 0.5
+SWEP.SightedSpeedMult = 0.6
 
-SWEP.ReloadSpeedMult = 0.4
+SWEP.ReloadSpeedMult = 0.6
 
-SWEP.AimDownSightsTime = 0.4
-SWEP.SprintToFireTime = 0.5
+SWEP.AimDownSightsTime = 0.3
+SWEP.SprintToFireTime = 0.35
 
-SWEP.Sway = 2
-SWEP.ScopedSway = 0.1
+SWEP.Sway = 0.75
+SWEP.ScopedSway = 0.15
 
-SWEP.FreeAimMaxAngle = 7.5
+SWEP.FreeAimMaxAngle = 4
 
 // hold types
 
@@ -157,7 +153,7 @@ SWEP.GestureShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
 SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_SMG1
 
 SWEP.PassiveAng = Angle(0, 0, 0)
-SWEP.PassivePos = Vector(0, -2, -6)
+SWEP.PassivePos = Vector(0, -2, -4.5)
 
 SWEP.BlindFireAng = Angle(0, 5, 0)
 SWEP.BlindFirePos = Vector(3, -2, -5)
@@ -170,8 +166,8 @@ SWEP.SprintMidPoint = {
     Ang = Angle(0, -2, -45)
 }
 
-SWEP.SightAng = Angle(0, -0.2, 0)
-SWEP.SightPos = Vector(-3.81, -7.5, -2.7)
+SWEP.SightAng = Angle(0, 1.1, 0)
+SWEP.SightPos = Vector(-3.75, -7.25, -2.4)
 
 SWEP.CorrectivePos = Vector(0.025, -7.5, 0.1)
 SWEP.CorrectiveAng = Angle(0, 0, 0)
@@ -186,8 +182,8 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 SWEP.ClipSize = 15
 SWEP.Ammo = "ar2"
 
-SWEP.ReloadTimeMult = 1
-SWEP.DropMagazineModel = "models/weapons/tacint/magazines/m14.mdl"
+SWEP.ReloadTimeMult = 0.9
+SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/m1carbine.mdl"
 SWEP.DropMagazineImpact = "metal"
 
 SWEP.ReloadUpInTime = 1.85
@@ -195,9 +191,9 @@ SWEP.DropMagazineTime = 0.5
 
 // sounds
 
-local path = "TacRP/weapons/m14/m14_"
+local path = "Tacint_shark/m1carbine/"
 
-SWEP.Sound_Shoot = "^" .. path .. "fire-1.wav"
+SWEP.Sound_Shoot = "^" .. path .. "fire.wav"
 SWEP.Sound_Shoot_Silenced = "TacRP/weapons/g36k/g36k_fire_silenced-1.wav"
 
 SWEP.Vol_Shoot = 130
@@ -244,7 +240,7 @@ SWEP.AnimationTranslationTable = {
 // attachments
 
 SWEP.AttachmentElements = {
-    ["sights"] = {
+    ["scope"] = {
         BGs_VM = {
             {1, 1}
         },
@@ -258,12 +254,10 @@ SWEP.AttachmentElements = {
 SWEP.Attachments = {
     [1] = {
         PrintName = "Optic",
-        Category = {"ironsights_sniper", "optic_cqb", "optic_medium", "optic_sniper"},
+        Category = "optic_m1",
         Bone = "ValveBiped.m14_rootbone",
-        InstalledElements = {"sights"},
         AttachSound = "TacRP/weapons/optic_on.wav",
         DetachSound = "TacRP/weapons/optic_off.wav",
-        VMScale = 1,
         Pos_VM = Vector(-4.6, 0.2, 15),
         Pos_WM = Vector(14.5, 0.6, -9.1),
         Ang_VM = Angle(90, 0, 0),
@@ -275,8 +269,10 @@ SWEP.Attachments = {
         Bone = "ValveBiped.m14_rootbone",
         AttachSound = "TacRP/weapons/silencer_on.wav",
         DetachSound = "TacRP/weapons/silencer_off.wav",
-        Pos_VM = Vector(-3.45, 0.2, 32.25),
-        Pos_WM = Vector(30, 0, -14.5),
+		VMScale = 0.8,
+		WMScale = 0.8,
+        Pos_VM = Vector(-2.7, 0.2, 31),
+        Pos_WM = Vector(30, -0.55, -14),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(-22.5, 5, 180),
         VMScale = 0.75
@@ -288,8 +284,8 @@ SWEP.Attachments = {
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
         InstalledElements = {"tactical"},
-        Pos_VM = Vector(-3, -0.35, 20),
-        Pos_WM = Vector(23, 0, -11),
+        Pos_VM = Vector(-2.3, -0.5, 17),
+        Pos_WM = Vector(18, 1.25, -9),
         Ang_VM = Angle(90, 0, -90),
         Ang_WM = Angle(-22.5, 5, 90),
     },
@@ -334,9 +330,9 @@ local function addsound(name, spath)
     })
 end
 
-addsound("TacInt_m14.remove_clip", path .. "remove_clip.wav")
-addsound("TacInt_m14.insert_clip", path .. "insert_clip.wav")
-addsound("TacInt_m14.insert_clip-mid", path .. "insert_clip-mid.wav")
-addsound("TacInt_m14.bolt_back", path .. "bolt_back.wav")
-addsound("TacInt_m14.bolt_release", path .. "bolt_release.wav")
-addsound("TacInt_m14.safety", path .. "safety.wav")
+addsound("tacint_m1carbine.remove_clip", path .. "clipout.wav")
+addsound("tacint_m1carbine.insert_clip", path .. "clipin2.wav")
+addsound("tacint_m1carbine.insert_clip-mid", path .. "clipout.wav")
+addsound("tacint_m1carbine.bolt_back", path .. "boltback.wav")
+addsound("tacint_m1carbine.bolt_release", path .. "boltforward.wav")
+addsound("tacint_m1carbine.safety", path .. "safety.wav")
