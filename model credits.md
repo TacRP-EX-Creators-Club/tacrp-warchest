@@ -3,15 +3,6 @@
 # PPSh-41 by MRDeadlyFPS
 ## https://gamebanana.com/mods/208869
 
-# Gewehr 43 by Team Psykskallar (Cry of Fear); GMod port by Полковник
-## https://steamcommunity.com/sharedfiles/filedetails/?id=1381601107
-
-# Fedorov Avtomat by DICE (Battlefield 1); GMod port by Moon
-## https://steamcommunity.com/sharedfiles/filedetails/?id=1547503497
-
-# M1911 Trench Carbine by DICE (Battlefield 1); GMod port by Moon
-## https://steamcommunity.com/sharedfiles/filedetails/?id=757179817
-
 # Ithaca M37 by Millenia
 ## https://gamebanana.com/mods/208396
 
