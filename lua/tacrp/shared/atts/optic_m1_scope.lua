@@ -2,7 +2,7 @@ ATT.PrintName = "Carbine Scope"
 ATT.FullName = "M1 Carbine 3.5x24 Scope"
 ATT.Icon = Material("entities/tacrp_att_optic_carbinescope.png", "mips smooth")
 ATT.Description = "Optical scope with specialized mount for the M1 Carbine."
-ATT.Pros = {"att.zoom.4"}
+ATT.Pros = {"3.5x Zoom"}
 ATT.Cons = {"stat.aimdownsights"}
 
 ATT.Category = "optic_m1"
