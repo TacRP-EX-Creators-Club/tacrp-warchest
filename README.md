@@ -1,2 +1,2 @@
 # TacRP War Chest
-A mini weapons packed themed around WW2 weaponry.
+Cancelled.  Some planned weapons merged with Special Delivery.
